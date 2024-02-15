@@ -9,6 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <HelloWorld msg="You made a new div and this is really slow" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
